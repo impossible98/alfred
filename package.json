@@ -1,6 +1,6 @@
 {
   "name": "alfred",
-  "version": "2020.09.19",
+  "version": "2020.09.20",
   "description": "",
   "scripts": {
     "dist": "node scripts/dist.js",
