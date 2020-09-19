@@ -1,0 +1,21 @@
+{
+  "name": "alfred",
+  "version": "2020.09.19",
+  "description": "",
+  "scripts": {
+    "dist": "node scripts/dist.js",
+    "sync": "node scripts/sync.js",
+    "tag": "node scripts/tag.js",
+    "version": "node scripts/version.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impossible98/alfred.git"
+  },
+  "author": "impossible98",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impossible98/alfred/issues"
+  },
+  "homepage": "https://github.com/impossible98/alfred#readme"
+}

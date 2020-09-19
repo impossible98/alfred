@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>luiyezheng.Search</string>
+	<key>connections</key>
+	<dict>
+		<key>24B45F59-1E3B-4667-95D7-BA627E22089B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91684329-43B1-4ADA-8999-09EF97D29122</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>5EAA5F79-AE17-4823-AC9D-C50F10199334</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6909B527-8AF1-401C-A0D3-A0EC381A29F7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>708BEBAC-7A4E-43E1-9E89-EC22FBCF42F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>409F8CFC-0605-4C46-B424-1E1A6C087CA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>8F490AF0-7F7F-4D40-AB1A-40CEDC8D6F1F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91684329-43B1-4ADA-8999-09EF97D29122</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>95C8BB3D-1779-44B2-8A62-AB169E1B5160</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E2CFB55-DE88-49E0-918E-229858876981</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>99295D8D-D0F6-4015-98BD-DA493E386F89</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>A561A2D2-1BDA-42C8-B722-F10FDEBDD721</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</key>
+		<array/>
+		<key>EFE92222-2701-4B26-A353-FE6FB650ABD8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91684329-43B1-4ADA-8999-09EF97D29122</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>luiyezheng</string>
+	<key>description</key>
+	<string>just search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>osascript -e 'tell app "Alfred 2.app" to search "{query} "'</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2E2CFB55-DE88-49E0-918E-229858876981</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>search</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+
+result.append(u'&lt;item uid="baidubaike' +  u'" arg="' + "baike" + u'"&gt;')
+result.append(u'&lt;title&gt;' + '百度百科'.decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+'输入你想查询的内容'.decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;baike.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;item uid="baiduzhidao' +  u'" arg="' + "zhidao" + u'"&gt;')
+result.append(u'&lt;title&gt;' + '百度知道'.decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+'输入你想查询的内容'.decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;zhidao.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;item uid="wikipedia' +  u'" arg="' + "wiki" + u'"&gt;')
+result.append(u'&lt;title&gt;' + '维基百科'.decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+'输入你想查询的内容'.decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;wiki.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+print xml.encode('utf-8')</string>
+				<key>subtext</key>
+				<string>搜索一切你想要的</string>
+				<key>title</key>
+				<string>百度百科、百度知道、维基搜索</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>95C8BB3D-1779-44B2-8A62-AB169E1B5160</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>zhidao</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,sys
+from bs4 import BeautifulSoup
+
+query = ""
+query = "{query}"
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+result.append(u'&lt;item uid="backToSearch'  + u'" arg="' + "**search**" + u'"&gt;')
+result.append(u'&lt;title&gt;' + "选择这里返回或输入你想搜索的内容".decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+"百度知道".decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;back.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+if query != "":
+	base_url = urllib.urlopen('http://zhidao.baidu.com/index?word=' + 	str(query))
+	soup_data = BeautifulSoup(base_url)
+
+	my_list = soup_data.find_all('a','a2')
+	title2_data=soup_data.find_all('p',"mbotton n-fz")
+	for id_count in range(1,8):
+    		try:
+        		zhidao_id=(re.findall(r'[0-9]*\.',my_list[id_count].get('href'))[0]).replace('.','')
+        		result_url = u'http://zhidao.baidu.com/question/'+zhidao_id
+        		title = my_list[id_count].get_text().encode('utf-8')
+        		title2 = title2_data[id_count].get_text().encode('utf-8')
+        		result.append(u'&lt;item uid="baidusearch' + str(id_count) + u'" arg="' + result_url + u'"&gt;')
+        		result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+        		result.append(u'&lt;subtitle&gt;'+title2.decode("utf8")+u'&lt;/subtitle&gt;')
+        		result.append(u'&lt;icon&gt;zhidao.png&lt;/icon&gt;')
+        		result.append(u'&lt;/item&gt;')
+    		except:
+        		pass
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+print xml.encode('utf-8')</string>
+				<key>subtext</key>
+				<string>输入你想知道的内容</string>
+				<key>title</key>
+				<string>百度知道</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8F490AF0-7F7F-4D40-AB1A-40CEDC8D6F1F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>baike</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,sys
+from bs4 import BeautifulSoup
+
+query = ""
+query = "{query}"
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+result.append(u'&lt;item uid="backToSearch'  + u'" arg="' + "**search**" + u'"&gt;')
+result.append(u'&lt;title&gt;' + "选择这里返回或输入你想知道的内容".decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+"百度百科".decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;back.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+if query != "":
+
+	base_url = urllib.urlopen('http://baike.baidu.com/search?word=' + 	str(query))
+	soup_data = BeautifulSoup(base_url)
+	my_list = soup_data.find_all('a','result-title')
+	for id_count in range(len(my_list)):
+    		result_url = my_list[id_count].get('href')
+    		title = my_list[id_count].get_text().encode('utf-8').replace(' ','')
+    		result.append(u'&lt;item uid="baikesearch' + str(id_count) + u'" arg="' + result_url + u'"&gt;')
+    		result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+    		result.append(u'&lt;subtitle&gt;'+'打开这条百科'.decode("utf8")+u'&lt;/subtitle&gt;')
+    		result.append(u'&lt;icon&gt;baike.png&lt;/icon&gt;')
+    		result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+print xml.encode('utf-8')</string>
+				<key>subtext</key>
+				<string>输入你想知道的内容</string>
+				<key>title</key>
+				<string>百度百科</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>24B45F59-1E3B-4667-95D7-BA627E22089B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>if "{query}" = "**search**" then
+	tell app "Alfred 2" to search "search"
+else
+	open location "{query}"
+end if </string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>91684329-43B1-4ADA-8999-09EF97D29122</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>wiki</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import urllib
+from bs4 import BeautifulSoup
+
+query = ""
+query = "{query}"
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+result.append(u'&lt;item uid="backToSearch'  + u'" arg="' + "**search**" + u'"&gt;')
+result.append(u'&lt;title&gt;' + "选择这里返回或输入你想知道的内容".decode("utf8") + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+"维基百科的搜索可能要花一点时间，请耐心等待".decode("utf8")+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;back.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+
+if query != "":
+	result_url = u'https://en.wikipedia.org/wiki/' + str(query)
+	html = BeautifulSoup(urllib.urlopen(result_url))
+	if html('b')[1].get_text() == u'Wikipedia does not have an article with this exact name.':
+    		result.append(u'&lt;item uid="wikisearch' +  u'" arg="' + result_url + u'"&gt;')
+    		result.append(u'&lt;title&gt;' + '维基百科上没有相关内容'.decode("utf8") + u'&lt;/title&gt;')
+    		result.append(u'&lt;subtitle&gt;'+'试试其他关键字'.decode("utf8")+u'&lt;/subtitle&gt;')
+    		result.append(u'&lt;icon&gt;wiki.png&lt;/icon&gt;')
+    		result.append(u'&lt;/item&gt;')
+
+	else:
+    		result.append(u'&lt;item uid="wikisearch' +  u'" arg="' + result_url + u'"&gt;')
+    		result.append(u'&lt;title&gt;' + '探索这篇百科'.decode("utf8") + u'&lt;/title&gt;')
+    		result.append(u'&lt;subtitle&gt;'+'打开'.decode("utf8")+u'&lt;/subtitle&gt;')
+    		result.append(u'&lt;icon&gt;wiki.png&lt;/icon&gt;')
+    		result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+print xml.encode('utf-8')</string>
+				<key>title</key>
+				<string>wikipedia</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EFE92222-2701-4B26-A353-FE6FB650ABD8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>409F8CFC-0605-4C46-B424-1E1A6C087CA1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>pai</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,sys
+from bs4 import BeautifulSoup
+base_url = urllib.urlopen('http://sspai.com')
+soup_data = BeautifulSoup(base_url)
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+my_list = soup_data.find_all('h2','title')
+for id_count in range(len(my_list)):
+
+    	result_url =soup_data('h2','title')[id_count]('a')[0].get('href')
+    	title = my_list[id_count]('a')		[0].get_text().encode('utf-8').replace('\n','').replace(' ','')
+    	result.append(u'&lt;item uid="sspaiarticle' + str(id_count) + u'" valid="Yes' + u'" arg="' + result_url + u'"&gt;')
+    	result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+    	result.append(u'&lt;subtitle&gt;'+'打开这篇文章'.decode('utf8')+u'&lt;/subtitle&gt;')
+    	result.append(u'&lt;icon&gt;sspai.png&lt;/icon&gt;')
+    	result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+print xml.encode('utf-8')</string>
+				<key>title</key>
+				<string>少数派ios</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>708BEBAC-7A4E-43E1-9E89-EC22FBCF42F8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>fmovie</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>正在搜索</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,sys
+from bs4 import BeautifulSoup
+base_url = urllib.urlopen('http://www.bthave.org/search/{query}')
+soup_data = BeautifulSoup(base_url,"html.parser")
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+my_list = soup_data("div","search-item")
+for id_count in range(len(my_list)):
+    try:
+        down_url = my_list[id_count]('a')[1].get('href')
+        title = my_list[id_count]('a')[0].get_text().encode('utf8').replace('\xe3\x80\x91','').replace('\xe3\x80\x90','')
+        subtitle = my_list[id_count]('li')[0]('span')[0].get_text()
+        result.append(u'&lt;item uid="magnetsearch' + str(id_count) + u'" arg="' + down_url + u'"&gt;')
+        result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+        result.append(u'&lt;subtitle&gt;'+subtitle.decode("utf8")+u'&lt;/subtitle&gt;')
+        result.append(u'&lt;icon&gt;magnet.png&lt;/icon&gt;')
+        result.append(u'&lt;/item&gt;')
+    except:
+        continue
+
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+
+print xml.encode('utf-8')</string>
+				<key>title</key>
+				<string>查找电影资源</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5EAA5F79-AE17-4823-AC9D-C50F10199334</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>fmovie</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,json
+from bs4 import BeautifulSoup
+base_url = urllib.urlopen('http://movie.douban.com/j/search_subjects?type=movie&amp;tag={query}&amp;sort=recommend&amp;page_limit=120&amp;page_start=0')
+soup_data = BeautifulSoup(base_url)
+
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+my_list = json.loads(str(soup_data))['subjects']
+for id_count in range(len(my_list)):
+    title = my_list[id_count]['title'].encode('utf8')
+    subtitle = my_list[id_count]['rate'].encode('utf8')
+    link_url=my_list[id_count]['url']
+    if float(subtitle) &gt;= 7.5:
+        
+        result.append(u'&lt;item uid="magnetsearch' + str(id_count) + u'" arg="' + link_url + u'"&gt;')
+        result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+        result.append(u'&lt;subtitle&gt;'+subtitle.decode("utf8")+u'&lt;/subtitle&gt;')
+        result.append(u'&lt;icon&gt;dmovie.png&lt;/icon&gt;')
+        result.append(u'&lt;/item&gt;')
+    else:
+        continue
+
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+
+print xml.encode('utf-8')</string>
+				<key>title</key>
+				<string>最新豆瓣高分电影推荐</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A561A2D2-1BDA-42C8-B722-F10FDEBDD721</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nmovie</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请稍等</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import re,urllib,sys
+from bs4 import BeautifulSoup
+base_url = urllib.urlopen('http://movie.douban.com')
+soup_data = BeautifulSoup(base_url)
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+movie_list = soup_data('li' ,'ui-slide-item s')[0]('li','title')
+rating_list = soup_data('li' ,'ui-slide-item s')[0]('li','rating')
+for id_count in range(len(movie_list)):
+    result_url =movie_list[id_count]('a')[0].get('href')
+    title = movie_list[id_count]('a')[0].get_text().encode('utf-8')
+    try:
+        subtitle = rating_list[id_count]('span','subject-rate')[0].get_text().encode('utf8').decode('utf8')
+    except:
+        subtitle = '暂无评分'
+
+        
+    result.append(u'&lt;item uid="reyinmovie' + str(id_count) + u'" arg="' + result_url + u'"&gt;')
+    result.append(u'&lt;title&gt;' + title.decode("utf8") + u'&lt;/title&gt;')
+    result.append(u'&lt;subtitle&gt;'+subtitle.decode('utf8')+u'&lt;/subtitle&gt;')
+    result.append(u'&lt;icon&gt;dmovie.png&lt;/icon&gt;')
+    result.append(u'&lt;/item&gt;')
+
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+print xml.encode('utf-8')</string>
+				<key>title</key>
+				<string>最新热映电影</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6909B527-8AF1-401C-A0D3-A0EC381A29F7</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>downloadmovie</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>wait</string>
+				<key>script</key>
+				<string># -*- coding: utf-8 -*-
+import urllib,re,os
+from bs4 import BeautifulSoup
+base_url = urllib.urlopen('http://www.6vhao.com/dy/')
+soup_data = BeautifulSoup(base_url,from_encoding = "gbk")
+
+
+result = [u'&lt;?xml version="1.0"?&gt;', u'&lt;items&gt;']
+
+
+newMovies = soup_data('ul','list')[0]('a')
+downloadLink = ''
+gradeLast = 0
+grade = 0
+for index in range(8):
+    movieLink = BeautifulSoup(urllib.urlopen(newMovies[index].get('href')),from_encoding = 'gbk')
+    
+    
+    if re.findall('豆瓣评分',str(movieLink)) != []:
+        
+        
+        grade = re.findall(r'豆瓣评分.*[1-9]',str(movieLink))[0]
+        grade = re.findall(r'[1-9]',grade)
+        if grade[0] == '0':
+            grade = 0
+        else:
+            grade = grade[0] + "." + grade[1]
+            grade = float(grade)
+    elif re.findall('IMDb评分',str(movieLink)) != []:
+        grade = re.findall(r'IMDb评分.*[1-9]',str(movieLink))[0]
+        grade = re.findall(r'[1-9]',grade)
+        if grade[0] == '0':
+            grade = 0
+        else:
+            grade = grade[0] + "." + grade[1]
+            grade = float(grade)
+
+    #print "gradeLast" + str(gradeLast)
+    #print "grade" + str(grade)
+    if (grade &gt; gradeLast and grade &gt; 7)  :
+        downloadLinklist = []
+        finallist = []
+        for item in movieLink('td'):
+            if item('a') != []:
+                downloadLinklist.append(item)
+            for item1 in downloadLinklist:
+                if re.findall(r"ed2k",str(item1)) != []:
+                    finallist.append(item1('a')[0].get('href'))
+        downloadLink = finallist[0]
+    
+        gradeLast = grade
+
+            
+    
+result.append(u'&lt;item uid="magnetsearch' + str(index) + u'" arg="' + downloadLink + u'"&gt;')
+result.append(u'&lt;title&gt;' + 'get the movie' + u'&lt;/title&gt;')
+result.append(u'&lt;subtitle&gt;'+'bestmovie'+u'&lt;/subtitle&gt;')
+result.append(u'&lt;icon&gt;magnet.png&lt;/icon&gt;')
+result.append(u'&lt;/item&gt;')
+    
+        
+        
+result.append(u'&lt;/items&gt;')
+xml = ''.join(result)
+
+
+print xml.encode('utf-8')
+#print downloadLink
+</string>
+				<key>title</key>
+				<string>downloadMovie</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>99295D8D-D0F6-4015-98BD-DA493E386F89</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>24B45F59-1E3B-4667-95D7-BA627E22089B</key>
+		<dict>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>2E2CFB55-DE88-49E0-918E-229858876981</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>409F8CFC-0605-4C46-B424-1E1A6C087CA1</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>5EAA5F79-AE17-4823-AC9D-C50F10199334</key>
+		<dict>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>6909B527-8AF1-401C-A0D3-A0EC381A29F7</key>
+		<dict>
+			<key>ypos</key>
+			<real>930</real>
+		</dict>
+		<key>708BEBAC-7A4E-43E1-9E89-EC22FBCF42F8</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>8F490AF0-7F7F-4D40-AB1A-40CEDC8D6F1F</key>
+		<dict>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>91684329-43B1-4ADA-8999-09EF97D29122</key>
+		<dict>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>95C8BB3D-1779-44B2-8A62-AB169E1B5160</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>99295D8D-D0F6-4015-98BD-DA493E386F89</key>
+		<dict>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>A561A2D2-1BDA-42C8-B722-F10FDEBDD721</key>
+		<dict>
+			<key>ypos</key>
+			<real>830</real>
+		</dict>
+		<key>C05DA3A6-BA8C-4DD6-8B8A-C8843C2EF96B</key>
+		<dict>
+			<key>ypos</key>
+			<real>830</real>
+		</dict>
+		<key>EFE92222-2701-4B26-A353-FE6FB650ABD8</key>
+		<dict>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
