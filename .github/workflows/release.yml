@@ -29,7 +29,7 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Feat:
-                - Update to tag ${{ github.ref }}
+               - Update to tag ${{ github.ref }}
           draft: false
           prerelease: false
       - name: Zip Asset
